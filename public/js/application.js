@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $('h1').hide().fadeIn(6000);
+  $('h1').hide().fadeIn(5500);
 });

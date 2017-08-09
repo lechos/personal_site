@@ -1,13 +1,61 @@
 body {
   background-color: #ffffb3;
+  background-size: 100%;
 }
 
-h1 {
+/*h1 {
   color: #00004d;
   font-size: 150px;
   font-family: Trebuchet MS;
-  /*font-weight: lighter;*/
-  position: absolute;
-  left: 100px;
+  font-weight: lighter;
+  /*position: relative;*/
+  /*left: 100px;*/
+  /*z-index: 1;
+}*/
+
+ul {
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  font-size: 40px;
+  float: top;
+  position: relative;
+  /*list-style-type: none;
+  margin: 0;
+  padding: 0;*/
+  /*background-color: white;
+  float: top;
+  height: 200px;
+  width: 100px;
+  z-index: -1;*/
 }
+
+li {
+  float: left;
+  /*font-color: #00004d;
+  display: inline;
+  /*float: right;*/
+  /*padding: 30px;*/*/
+}
+
+li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+ /* float: right;*/
+  color: white;
+  font-family: Trebuchet MS;
+  text-decoration: none;
+}
+
+/*.earth {
+  background-image: url(/planet.jpg);
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}*/
+
+/* **make earth image fade-in as background a few seconds after page load ** */
 
