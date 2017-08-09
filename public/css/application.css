@@ -1,9 +1,13 @@
-.container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+body {
+  background-color: #ffffb3;
 }
-th {
-  text-align: left;
+
+h1 {
+  color: #00004d;
+  font-size: 150px;
+  font-family: Trebuchet MS;
+  /*font-weight: lighter;*/
+  position: absolute;
+  left: 100px;
 }
+
