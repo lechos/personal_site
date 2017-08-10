@@ -8,7 +8,8 @@ body {
   display: inline-block;
   font-size: 70px;
   font-family: Trebuchet MS;
-  font-weight: lighter;
+  letter-spacing: 2px;
+  /*font-weight: lighter;*/
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
@@ -19,14 +20,18 @@ body {
 }
 
 ul {
-  background-color: black;
+  /*background-color: black;*/
   list-style-type: none;
   margin: 0;
-  padding: 10px;
-  padding-top: 0;
+  padding: 20px;
+  padding-right: 50px;
+  padding-top: 10%;
   overflow: hidden;
   font-size: 30px;
-  float: top;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #ff3300;
+  float: right;
   position: relative;
   /*list-style-type: none;
   margin: 0;
@@ -39,7 +44,7 @@ ul {
 }
 
 li {
-  float: right;
+  /*float: right;*/
   /*text-align: center*/
 }
 
@@ -49,23 +54,44 @@ li a {
   text-align: center;
  /* float: right;*/
   color: #e6e6e6;
+  /*color: #cc0000;*/
   font-family: Trebuchet MS;
   text-decoration: none;
 }
 
+/*.contact_link {
+  font-color: #ff3300;
+}*/
+
+/*.home_link {
+  font-family: Arial;
+}*/
+
+/*.about_link {
+}
+
+.portfolio_link {
+}*/
+
 .portfolio {
   font-family: Trebuchet MS;
-  font-color: red;
+  color: #e6e6e6;
+  letter-spacing: 2px;
+  padding: 20px;
 }
 
 .about {
   font-family: Trebuchet MS;
-  font-color: purple;
+  color: #e6e6e6;
+  letter-spacing: 2px;
+  padding: 20px;
 }
 
 .contact {
   font-family: Trebuchet MS;
-  font-color: green;
+  color: #e6e6e6;
+  letter-spacing: 2px;
+  padding: 20px;
 }
 
 /*.earth {
