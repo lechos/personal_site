@@ -1,6 +1,8 @@
 # Personal Website
 
-## Summary
+In-progress site built in Sinatra for myself. README from found Sinatra template still listed below. 
+
+## 
 
 We're going to build our first and very simple web application using [Sinatra](http://www.sinatrarb.com/), a lightweight framework for building web applications in Ruby.
 
