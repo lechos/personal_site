@@ -1,4 +1,4 @@
-# Sinatra Skeleton
+# Personal Website
 
 ## Summary
 
